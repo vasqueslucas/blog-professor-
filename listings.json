@@ -1,14 +1,10 @@
 [
   {
-    "listing": "/Desktop/blog-fodao/index.html",
-    "items": [
-      "/Desktop/blog-fodao/posts/post-with-code/index.html",
-      "/Desktop/blog-fodao/posts/welcome/index.html",
-      "/Desktop/blog-fodao/posts/regressao/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/regressao/index.html"
+    ]
   }
 ]
