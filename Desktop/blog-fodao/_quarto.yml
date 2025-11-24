@@ -2,20 +2,18 @@ project:
   type: website
 
 website:
-  title: "Blog Acadêmico – Lucas C. Vasques"
-  site-url: "https://vasqueslucas.github.io/blog-professor/"
-  navbar:
-    right:
-      - text: "Início"
-        href: index.qmd
-      - text: "Sobre"
-        href: about.qmd
-      - text: "Posts"
-        href: posts/
+  title: "Blog do Lucas Vasques"
+  site-url: https://vasqueslucas.github.io/blog-professor/
+  repo-url: https://github.com/vasqueslucas/blog-professor
+  repo-branch: main
 
 format:
   html:
-    theme:
-      light: cosmo
+    theme: cosmo
     css: styles.css
     toc: true
+
+publish:
+  gh-pages:
+    branch: gh-pages
+    repo: vasqueslucas/blog-professor
